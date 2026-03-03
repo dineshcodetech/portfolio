@@ -22,11 +22,11 @@ export function ContactSection() {
               <span className="truncate">{contact.email}</span>
             </a>
             <a
-              href={`tel:+91${contact.phone}`}
+              href={`tel:${contact.phone}`}
               className="inline-flex items-center justify-center gap-2 rounded-full border border-zinc-600 px-5 sm:px-6 py-3.5 sm:py-3 min-h-[48px] text-white font-medium hover:bg-zinc-800 transition-colors touch-manipulation active:scale-[0.98] text-sm sm:text-base"
             >
               <Phone className="h-4 w-4 shrink-0" />
-              +91 {contact.phone}
+               {contact.phone}
             </a>
           </div>
         </CardContent>
