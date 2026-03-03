@@ -714,7 +714,7 @@ export const projectDetails: Record<
 export const contact = {
   cta: "Let's build something great",
   subtext: "Discuss your project or get a quote. We respond within 24 hours.",
-  email: "aravind@gmail.com",
-  phone: "9381516771",
-  whatsapp: "919381516771",
+  email: "aravindpolavarapu567@gmail.com",
+  phone: "+16562044178",
+  whatsapp: "+16562044178",
 } as const;

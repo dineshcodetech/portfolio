@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   title: "Recursion Technologies — Scalable and global",
   description:
     "We build scalable applications worldwide. Full-stack development, cloud solutions & AI with a team of app, backend, frontend, and AI developers.",
+  icons: {
+    icon: "/recursion-logo.png",
+    shortcut: "/recursion-logo.png",
+    apple: "/recursion-logo.png",
+  },
 };
 
 export const viewport = {
